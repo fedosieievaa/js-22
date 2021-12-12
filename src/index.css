@@ -1,0 +1,229 @@
+body {
+    color: white;
+    background: rgb(5, 41, 1);
+    margin: 0;
+    padding: 0;
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+
+.post_container {
+    width: 70%;
+    height: auto;
+    margin: 80px auto;
+    padding: 3%;
+    background: rgba(255, 255, 255, 0.192);
+    border: 1px solid rgb(5, 5, 5);
+    border-radius: 10px;
+}
+
+.container_img_info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container_info {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 50%;
+    height: 90px;
+}
+
+.user_photo {
+    margin-right: 1.5%;
+    display: inline;
+    border-radius: 50%;
+}
+
+.user_name {
+    display: inline;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.user_name img {
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+
+.user_nickname {
+    text-decoration: none;
+    padding: 3px;
+    color: #FFFFFF;
+}
+
+.post_date {
+    display: inline;
+    padding: 3px;
+}
+
+.post_content {
+    margin: 0 0 1% 10%;
+    padding: 3px;
+}
+
+.post_image {
+    margin: 0 0 0 10%;
+    border-radius: 20px;
+}
+
+.statistics {
+    cursor: pointer;
+    margin: 0 0 0 10%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-weight: bold;
+}
+
+.statistics_comments,
+.statistics_shares,
+.statistics_likes,
+.statistics_save {
+    margin-left: 10%;
+}
+
+.statistics_comments::before,
+.statistics_shares::before,
+.statistics_likes::before,
+.statistics_save {
+    position: relative;
+    top: 15px;
+    left: -20px;
+}
+
+.statistics_comments::before {
+    content: url(./assets/img/comments.png);
+}
+
+.statistics_shares::before {
+    content: url(./assets/img/shares.png);
+}
+
+.statistics_likes::before {
+    content: url(./assets/img/likes.png);
+}
+
+.statistics_save {
+    content: url(./assets/img/save.png);
+    top: 10px;
+}
+
+.form {
+    background: rgba(255, 255, 255, 0.192);
+    font-size: 20px;
+    width: 50%;
+    height: 300px;
+    border: 1px solid black;
+    margin: 10px auto;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.form_input {
+    width: 50%;
+    height: 30px;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    margin: 20px auto;
+    color: green;
+    font-size: 1rem;
+}
+
+.form_btn-create {
+    width: 20%;
+    height: 50px;
+    margin: 0 auto;
+    cursor: pointer;
+    font-size: 20px;
+    background: rgba(0, 128, 0, 0.226);
+    border-style: none;
+    border-radius: 10%;
+    border: 0.5px solid rgba(255, 255, 255, 0.404);
+    color: rgba(255, 255, 255, 0.685);
+}
+
+.form_btn-create:hover {
+    color: rgba(0, 128, 0, 0.746);
+    border: 0.5px solid rgba(0, 128, 0, 0.226);
+    background: rgba(255, 255, 255, 0.685);
+    transition: 0.3s ease-in-out;
+}
+
+@media all and (max-width: 1100px) {
+    .user_name img {
+        width: 30px;
+        top: 7px;
+    }
+    .user_name {
+        font-size: 20px;
+    }
+    .container_info {
+        width: 70%;
+    }
+    .form_btn-create {
+        width: 50%;
+        font-size: 16px;
+        margin: 10px auto;
+        padding: 3px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .user_name img {
+        width: 20px;
+        top: 5px;
+    }
+    .user_name {
+        font-size: 16px;
+    }
+    .container_info {
+        height: 50px;
+    }
+    .post_date {
+        display: none;
+    }
+    .statistics_comments::before {
+        content: url(./assets/img/comment24.png);
+        top: 0.5px;
+    }
+    .statistics_shares::before {
+        content: url(./assets/img/share24.png);
+        top: 5px;
+    }
+    .statistics_likes::before {
+        content: url(./assets/img/like24.png);
+        top: 1px;
+    }
+    .statistics_save {
+        content: url(./assets/img/save24.png);
+        top: 1px;
+    }
+    .statistics_comments::before,
+    .statistics_shares::before,
+    .statistics_likes::before,
+    .statistics_save {
+        left: -2px;
+    }
+}
+
+@media all and (max-width: 460px) {
+    .user_photo {
+        width: 50px;
+    }
+    .user_name {
+        font-size: 16px;
+    }
+    .user_nickname {
+        display: none;
+    }
+    .form {
+        width: 80%;
+    }
+}
