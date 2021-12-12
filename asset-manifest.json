@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/js-22/static/css/main.4bfeb982.chunk.css",
+    "main.js": "/js-22/static/js/main.7a811f5f.chunk.js",
+    "main.js.map": "/js-22/static/js/main.7a811f5f.chunk.js.map",
+    "runtime-main.js": "/js-22/static/js/runtime-main.3c773d53.js",
+    "runtime-main.js.map": "/js-22/static/js/runtime-main.3c773d53.js.map",
+    "static/js/2.a7e39b52.chunk.js": "/js-22/static/js/2.a7e39b52.chunk.js",
+    "static/js/2.a7e39b52.chunk.js.map": "/js-22/static/js/2.a7e39b52.chunk.js.map",
+    "index.html": "/js-22/index.html",
+    "static/css/main.4bfeb982.chunk.css.map": "/js-22/static/css/main.4bfeb982.chunk.css.map",
+    "static/js/2.a7e39b52.chunk.js.LICENSE.txt": "/js-22/static/js/2.a7e39b52.chunk.js.LICENSE.txt",
+    "static/media/Anakin_Skywalker.531dde39.jpeg": "/js-22/static/media/Anakin_Skywalker.531dde39.jpeg",
+    "static/media/Padmé_Amidala.51ac20fc.jpeg": "/js-22/static/media/Padmé_Amidala.51ac20fc.jpeg",
+    "static/media/Ray_Skywalker.19025a32.jpeg": "/js-22/static/media/Ray_Skywalker.19025a32.jpeg",
+    "static/media/selfie.ea8164b2.jpeg": "/js-22/static/media/selfie.ea8164b2.jpeg",
+    "static/media/sunset.369103ae.jpeg": "/js-22/static/media/sunset.369103ae.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3c773d53.js",
+    "static/js/2.a7e39b52.chunk.js",
+    "static/css/main.4bfeb982.chunk.css",
+    "static/js/main.7a811f5f.chunk.js"
+  ]
+}
